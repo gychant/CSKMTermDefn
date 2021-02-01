@@ -1,0 +1,40 @@
+
+raw_rel2text = {
+    'AtLocation': 'at location',
+    'CapableOf': 'capable of',
+    'Causes': 'causes',
+    'CausesDesire': 'causes desire',
+    'CreatedBy': 'created by',
+    'DefinedAs': 'defined as',
+    'DesireOf': 'desire of',
+    'Desires': 'desires',
+    'HasA': 'has a',
+    'HasFirstSubevent': 'has first subevent',
+    'HasLastSubevent': 'has last subevent',
+    'HasPainCharacter': 'has pain character',
+    'HasPainIntensity': 'has pain intensity',
+    'HasPrerequisite': 'has prerequisite',
+    'HasProperty': 'has property',
+    'HasSubevent': 'has subevent',
+    'InheritsFrom': 'inherits from',
+    'InstanceOf': 'instance of',
+    'IsA': 'is a',
+    'LocatedNear': 'located near',
+    'LocationOfAction': 'location of action',
+    'MadeOf': 'made of',
+    'MotivatedByGoal': 'motivated by goal',
+    'NotCapableOf': 'not capable of',
+    'NotDesires': 'not desires',
+    'NotHasA': 'not has a',
+    'NotHasProperty': 'not has property',
+    'NotIsA': 'not is a',
+    'NotMadeOf': 'not made of',
+    'PartOf': 'part of',
+    'ReceivesAction': 'receives action',
+    'RelatedTo': 'related to',
+    'SymbolOf': 'symbol of',
+    'UsedFor': 'used for'
+}
+
+# convert to lower-case keys
+rel2text = {k.lower(): v for k, v in raw_rel2text.items()}

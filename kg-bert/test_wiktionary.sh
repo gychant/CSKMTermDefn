@@ -1,0 +1,15 @@
+python run_bert_triple_classifier.py \
+--task_name ckbc \
+--do_predict \
+--data_dir ./data/CKBC \
+--bert_model bert-base-uncased \
+--do_lower_case \
+--max_seq_length 20 \
+--train_batch_size 32 \
+--learning_rate 5e-5 \
+--num_train_epochs 3 \
+--output_dir ./kg-bert/output_CKBC/ \
+--test_data_dir ./data/wiktionary_relationwise_candidates_by_pos_tag_core/ \
+--prediction_dir ./data/kgbert_wiktionary_core/ \
+--gradient_accumulation_steps 1 \
+--eval_batch_size 8192
