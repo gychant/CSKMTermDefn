@@ -1,5 +1,5 @@
 # Commonsense Knowledge Mining from Term Definitions
-This repository contains the source code released along with our paper [Commonsense Knowledge Mining from Term Definitions](https://usc-isi-i2.github.io/AAAI21workshop/papers/Liang_CSKGsAAAI-21.pdf) at the Commonsense Knowledge Graphs (CSKGs) Workshop of AAAI 2021 (https://usc-isi-i2.github.io/AAAI21workshop/). 
+This repository contains the source code released along with our paper [Commonsense Knowledge Mining from Term Definitions](https://arxiv.org/abs/2102.00651) at the Commonsense Knowledge Graphs (CSKGs) Workshop of AAAI 2021 (https://usc-isi-i2.github.io/AAAI21workshop/). 
 
 If you find our paper and code useful for your research, please cite
 ```
